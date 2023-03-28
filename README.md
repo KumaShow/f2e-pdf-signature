@@ -1,14 +1,28 @@
 # thef2e-2022-pdfsign
 
-This template should help get you started developing with Vue 3 in Vite.
+線上 PDF 簽名 (功能尚未開發完畢，請先以手幾版畫面觀看。)
 
-## Recommended IDE Setup
+![](https://i.imgur.com/2axZdz0.png)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+UI designer： [小菜](https://noarzxcvbnm.github.io/PersonalWebsite/)
 
-## Customize configuration
+## 專案說明
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+透過 Canvas 製作 PDF 線上簽名服務的網站。
+
+## 使用技術
+
+  * Vue 3 + Vite
+  * Pinia
+  * Tailwind CSS
+  * PDF.js
+  * fabric.js
+
+## 功能
+
+  * 判斷上傳檔案格式是否為 PDF、檔案限制大小
+  * 加入簽名
+  * 下載完成後 PDF(未完成)
 
 ## Project Setup
 
