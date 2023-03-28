@@ -11,6 +11,7 @@ export default defineConfig({
       include: ['src/**/*.js', 'src/**/*.vue', 'src/*.js', 'src/*.vue'],
     }),
   ],
+  base: process.env.NODE_ENV === 'production' ? '/f2e-pdf-signature/' : '',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
