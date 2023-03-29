@@ -4,8 +4,9 @@
 
 ![](https://i.imgur.com/2axZdz0.png)
 
-Demo：https://kumashow.github.io/f2e-pdf-signature/
-UI designer： [小菜](https://noarzxcvbnm.github.io/PersonalWebsite/)
+> Demo：https://kumashow.github.io/f2e-pdf-signature/
+> 
+> UI designer： [小菜](https://noarzxcvbnm.github.io/PersonalWebsite/)
 
 ## 專案說明
 
@@ -25,26 +26,6 @@ UI designer： [小菜](https://noarzxcvbnm.github.io/PersonalWebsite/)
   * 加入簽名
   * 下載完成後 PDF(未完成)
 
-## Project Setup
+## 參考資料
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+ * [The F2E 前端 & UI 修煉精神時光屋](https://2022.thef2e.com)
