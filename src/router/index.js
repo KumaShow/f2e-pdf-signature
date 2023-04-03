@@ -14,15 +14,14 @@ const routes = [
     component: () => import('@/views/SignView.vue'),
   },
   {
-    path: '/test',
-    component: () => import('@/views/SignNameModal.vue'),
+    path: '/final',
+    component: () => import('@/views/SignFinal.vue'),
   },
 ];
 
 const router = createRouter({
   history: createWebHashHistory(import.meta.env.BASE_URL),
   routes,
-  // linkActiveClass: "active",
 });
 
 export default router;
