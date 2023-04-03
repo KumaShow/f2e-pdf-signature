@@ -71,7 +71,7 @@ export default {
               'text-primary': signStep === 'upload',
               'text-secondary': signStep !== 'upload'
             }"
-            class="w-1/3 text-10 sm:text-14 sm:px-2 md-text-20"
+            class="w-1/3 text-12 sm:text-14 sm:px-2 md-text-20"
           >
             <p>上傳文件</p>
           </li>
@@ -80,12 +80,12 @@ export default {
               'text-primary': signStep === 'sign',
               'text-secondary': signStep === 'final'
             }"
-            class="w-1/3 text-10 sm:text-14 sm:px-2 md-text-20"
+            class="w-1/3 text-12 sm:text-14 sm:px-2 md-text-20"
           >
             <p>進行簽署</p>
           </li>
           <li
-            class="w-1/3 text-10 sm:text-14 sm:px-2 md-text-20"
+            class="w-1/3 text-12 sm:text-14 sm:px-2 md-text-20"
             :class="{'text-primary': signStep === 'final'}"
           >
             <p>下載文件</p>

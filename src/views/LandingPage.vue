@@ -22,13 +22,13 @@ export default {
     >
       <div class="md:mb-16">
         <img class="mb-2" src="@/assets/images/LOGO_1.png" alt="點點簽">
-        <p class="text-secondary text-10 tracking-[0.9em] text-center sm:text-16 md:text-20">
+        <p class="text-secondary text-12 tracking-[0.9em] text-center sm:text-16 md:text-20">
           線上簽署，方便快速。
         </p>
       </div>
       <RouterLink
         to="/upload"
-        class="py-3.5 md:py-5 text-10 sm:text-16 text-dark tracking-[1em] text-center
+        class="py-3.5 md:py-5 text-12 sm:text-16 text-dark tracking-[1em] text-center
           rounded-none bg-white hover:bg-primary  hover:text-white
           transition-colors shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)] md:text-20"
       >

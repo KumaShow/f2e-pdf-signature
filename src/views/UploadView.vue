@@ -51,7 +51,7 @@ export default {
         'rounded-t-[15px]': true,
         'cursor-pointer': true,
         'transition-colors': true,
-        'text-10': true,
+        'text-12': true,
         'sm:text-16': true,
         'md:text-20': true,
         'text-primary': isActive,

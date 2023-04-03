@@ -38,7 +38,7 @@ export default {
       items-center justify-center hover:bg-gray-light"
     >
       <div
-        class="text-center text-gray-dark text-10 sm:text-16 md:text-20"
+        class="text-center text-gray-dark text-12 sm:text-16 md:text-20"
       >
         <p class="mb-3.5">
           點擊此處上傳

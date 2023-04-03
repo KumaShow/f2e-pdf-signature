@@ -71,7 +71,7 @@ export default {
     </a>
     <!-- 簽名按鈕 -->
     <div class="pt-4">
-      <p class="text-center text-gray-dark text-10 mb-2">（往下滾動並點擊簽名使用）</p>
+      <p class="text-center text-gray-dark text-12 mb-2">（往下滾動並點擊簽名使用）</p>
       <button
         type="button"
         @click="createSign"
