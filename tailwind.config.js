@@ -16,7 +16,7 @@ module.exports = {
         xs: '376px',
         sm: '576px',
         md: '768px',
-        lg: '1440px',
+        lg: '1200px',
       },
       colors: {
         primary: '#F9B471',

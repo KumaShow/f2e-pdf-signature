@@ -38,7 +38,7 @@ export default {
 
 <template>
   <header class="bg-light-main">
-    <div class="md:container px-2.5 flex items-center justify-between">
+    <div class="md:container px-2.5 flex items-center justify-between lg:w-10/12">
       <h1 class="py-[17px] mr-auto">
         <RouterLink
           to="/"

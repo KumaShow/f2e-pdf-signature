@@ -77,7 +77,7 @@ export default {
       pb-[144px] sm:pb-[94px] md:pb-[108px]"
     >
       <!-- 上傳 tab -->
-      <div class="md:container w-full">
+      <div class="md:container w-full lg:w-10/12">
         <div class="flex flex-none bg-light-main rounded-t-[15px]"
         >
           <a
@@ -94,7 +94,7 @@ export default {
           </a>
         </div>
       </div>
-      <div class="md:container w-full h-full">
+      <div class="md:container w-full lg:w-10/12 h-full">
         <component :is="currentTab" />
       </div>
     </main>

@@ -62,7 +62,7 @@ export default {
   <footer
     class="bg-light-main py-2.5 w-full fixed bottom-0"
   >
-    <div class="sm:flex sm:justify-between sm:items-center md:container">
+    <div class="sm:flex sm:justify-between sm:items-center md:container lg:w-10/12">
       <!-- 簽署進度條 -->
       <div class="border-b pb-[15px] mb-1.5 sm:border-0 sm:pb-0">
         <ul class="flex text-gray-dark text-center mb-1.5">
