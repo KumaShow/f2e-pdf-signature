@@ -29,9 +29,9 @@
   * Pinia
   * Tailwind CSS
   * ESLint Airbnb
-  * PDF.js
-  * fabric.js
-  * jspdf.js
+  * pdfjs-dist (讀取 PDF 檔案)
+  * fabric.js (加強 Canvas 使用體驗)
+  * jspdf.js (輸出 PDF)
 
 ## 功能
 
