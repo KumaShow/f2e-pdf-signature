@@ -91,7 +91,11 @@ export default {
             <p>下載文件</p>
           </li>
         </ul>
-        <div class="flex justify-around">
+        <div class="flex justify-around
+          relative after:content-['']
+          sm:after:w-40 after:w-[70%] after:h-[10px] after:bg-white
+          after:absolute after:top-[25%] after:-z-10
+          after:shadow-[0px_4px_4px_0_rgba(238,237,232,1)]">
           <!-- step 上傳文件 -->
           <div class="text-center bg-white w-[22px] h-[22px] rounded-full
             p-[3px] flex justify-center items-center
